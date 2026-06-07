@@ -10,11 +10,11 @@
 視覚的理解: クーロンの法則やキルヒホッフの法則など、公式の背後にある原理や関係性についても簡潔な解説を加えています。
 
 構成
-index.html: アプリケーションのUI構造を定義。
+Electricity-Formula-Tool.html: アプリケーションのUI構造を定義。
 
-Buturi.css: スタイル調整用（必要に応じて作成してください）。
+Electricity-Formula-Tool.css: スタイル調整用（必要に応じて作成してください）。
 
-Buturi.js: 公式データと表示制御ロジックを管理。
+Electricity-Formula-Tool.js: 公式データと表示制御ロジックを管理。
 
 含まれる公式
 オームの法則: 電圧・抵抗・電流の関係。
@@ -32,7 +32,7 @@ Buturi.js: 公式データと表示制御ロジックを管理。
 導入方法
 HTMLファイルの <head> セクション内に MathJax の CDN を読み込んでいることを確認してください。
 
-ブラウザで index.html を開くだけで利用可能です。
+ブラウザで Electricity-Formula-Tool.html を開くだけで利用可能です。
 
 技術スタック
 HTML5 / CSS3
