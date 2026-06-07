@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電気公式</title>
+    <link rel="stylesheet" href="Buturi.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>電気公式一覧表</h1>
+
+    <h2 id="electricity_1">オームの法則</h2>
+    <select id="electricity1">
+        <option value="volt">電圧</option>
+        <option value="ohm">抵抗</option>
+        <option value="amps">電流</option>
+    </select>
+    <div id="official1"></div>
+
+    <h2 id="electricity_2">合成抵抗の公式</h2>
+    <select id="electricity2">
+        <option value="seriesConnectionResistor">直列接続の抵抗</option>
+        <option value="parallelConnectionResistor">並列接続の抵抗</option>
+        <option value="productOverSum">和分の積</option>
+    </select>
+    <div id="official2"></div>
+
+    <h2 id="electricity_3">抵抗率の公式</h2>
+    <select id="electricity3">
+        <option value="resistance">抵抗</option>
+        <option value="resistivity">抵抗率</option>
+        <option value="relationshipBetweenConductivityAndResistivity">導電率と抵抗率の関係</option>
+    </select>
+    <div id="official3"></div>
+
+    <h2 id="electricity_4">電流の定義の公式と分圧と分流の公式</h2>
+    <select id="electricity4">
+        <option value="definitionOfCurrent">電流の定義</option>
+        <option value="PartialPressureFormula">分圧の公式</option>
+        <option value="diversionFormula">分流の公式</option>
+    </select>
+    <div id="official4"></div>
+
+    <h2 id="electricity_5">静電気の公式</h2>
+    <select id="electricity5">
+        <option value="coulombLaw">クーロンの法則</option>
+        <option value="electricField">電場の強さ</option>
+        <option value="electricPotential">電位</option>
+    </select>
+    <div id="official5"></div>
+
+    <h2 id="electricity_6">キルヒホッフの法則</h2>
+    <select id="electricity6">
+        <option value="kirchhoffCurrent">第1法則（電流則）</option>
+        <option value="kirchhoffVoltage">第2法則（電圧則）</option>
+    </select>
+    <div id="official6"></div>
+
+    <p>速度の公式は<a href="speed_formula.html">こちら</a></p>
+    <p>関数の公式は<a href="Math_Kansu.html">こちら</a></p>
+    <script src="Buturi.js"></script>
+</body>
+</html>
