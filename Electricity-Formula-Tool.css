@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-image: url("giga_manga.png");
+}
+#electricity_1
+{
+    color: rgb(245, 42, 6);
+    font-style: italic;
+}
+#electricity_2
+{
+    color: rgb(6, 14, 245);
+    font-style: italic;
+}
+#electricity_3
+{
+    color: rgb(12, 242, 12);
+    font-style: italic;
+}
+#electricity_4
+{
+    color: rgb(241, 7, 175);
+    font-style: italic;
+}
